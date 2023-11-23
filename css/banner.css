@@ -1,0 +1,43 @@
+.banner {
+    padding: 2em 0;
+    background: var(--cor-de-fundo-branco);
+}
+.banner-pokemon {
+    padding: 0 1em 1em 1em;
+    text-align: center;
+}
+.titulo-banner {
+    padding-bottom: 1em;
+}
+
+.banner__pesquisa {
+    margin-top: 1.5em;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid #c6c6c6;
+    color: var(--texto-preto);
+    padding: 0.8em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 35px;
+    color: var(--texto-destaque-secundario);
+    background: url(../image/lupa.png) no-repeat;
+}
+
+@media screen and (min-width: 1024px)  {
+    .banner__pesquisa {
+        max-width: 400px;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        margin-left: 40%;
+    }
+}

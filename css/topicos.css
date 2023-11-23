@@ -1,0 +1,39 @@
+.topicos {
+    text-align: center;
+    background: var(--cor-de-fundo-branco);
+}
+
+.topicos-lista {
+    padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topicos-item {
+    background: var(--texto-trans);
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 0.7em;
+    margin: 0.5em;
+}
+
+.logo {
+    width: 100%;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .topicos-lista {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos-lista {
+        justify-content: center;
+    }
+}

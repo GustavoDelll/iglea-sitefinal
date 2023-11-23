@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Emerald</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="menu">
+                <span class="cabecalho__menu-hamburguer contaier__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gen°</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tipos</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">hm e tm</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Pokebolas</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ginásio</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">Elite Four</a></li>
+            </ul>
+            <img src="https://i.ebayimg.com/images/g/nLQAAOSwzUxj6fbr/s-l1600.png" alt="Logo pokemon" class="pokemon">
+            <img src="https://logosmarcas.net/wp-content/uploads/2020/05/Pokemon-Logo.png" alt="pokemon" class="img-logo-pokemon">
+        </div>
+
+        <ul class="opcoes">
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Gen°</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Tipos</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">hm e tm</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Pokébolas</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Ginásio</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Elite Four</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="./src/image/lupa.png" alt="Icone do Usuario" class="contaier__imagem"></a>
+            <a href="#"><img src="./src/image/do-utilizador.png" alt="Icone do Usuario" class="contaier__imagem"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-pokemon">
+            <h2 class="titulo-banner">Já sabe como vai começar sua jornada?</h2>
+            <p class="texto-banner">Encontre em nossa pokedex o que precisa para sua jornada com treinador.</p>
+        </div>
+        <input type="search" class="banner__pesquisa" placeholder="Search">
+    </section>
+
+    <section class="carrosel">
+        <div class="text-principal-carrosel">
+            <h2 class="carrosel__titulo">Os Populares</h2>
+        </div>
+        <div class="carrosel-container">
+            <div class="swiper mediascreen">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Swampert</span>
+                                        <span>#260</span>
+                                    </div>
+                                    <img src="https://pa1.aminoapps.com/6268/70e031435acfeb02f1782763c29047f2b2acc708_00.gif" alt="Swampert" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo water">Water</li>
+                                        <li class="tipo ground">Ground</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Gardevoir</span>
+                                        <span>#282</span>
+                                    </div>
+                                    <img src="https://media.tenor.com/_SSLwxdYbSIAAAAj/gardevoir-standing.gif" alt="Gardevoir" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo psychic">Psychic</li>
+                                        <li class="tipo fairy">Fairy</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Shedinja</span>
+                                        <span>#260</span>
+                                    </div>
+                                    <img src="https://www.smogon.com/forums/media/data/avatars/l/605/605342.jpg?1662606113" alt="Shedinja" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo bug">Bug</li>
+                                        <li class="tipo ghost">Ghost</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Milotic</span>
+                                        <span>#350</span>
+                                    </div>
+                                    <img src="https://i.postimg.cc/YSkYDJXV/E-350-front.gif" alt="Milotic" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo water">Water</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Aggron</span>
+                                        <span>#306</span>
+                                    </div>
+                                    <img src="https://www.smogon.com/forums/media/data/avatars/l/288/288916.jpg?1443294913" alt="Aggron" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo steel">Steel</li>
+                                        <li class="tipo rock">Rock</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Flygon</span>
+                                        <span>#260</span>
+                                    </div>
+                                    <img src="https://pa1.aminoapps.com/6197/74995e6e19463efd61336c500ebc53a4a402fb67_hq.gif" alt="Flygon" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo ground">Ground</li>
+                                        <li class="tipo dragon">Dragon</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+    
+            <section class="block-card">
+                <div class="card">
+                    <div>
+                        <p class="card-text">Gotta Catch 'Em </p>
+                        <p class="card-text">All!</p>
+                    </div>
+                    <img src="https://pa1.narvii.com/6542/4916704644971d9c20c494f9775f59e1d31d68d4_hq.gif" alt="Red Sprite" class="card-img">
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="carrosel">
+        <div class="text-principal-carrosel">
+            <h2 class="carrosel__titulo">Os mais Procurados</h2>
+        </div>
+        <div class="carrosel-container">
+            <div class="swiper mediascreen">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Pikachu</span>
+                                        <span>#025</span>
+                                    </div>
+                                    <img src="https://pa1.aminoapps.com/6473/f6ec3bf7fed8e4669962490ab32812d69f19356b_hq.gif" alt="Pikachu" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo eletric">Eletric</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>MewTwo</span>
+                                        <span>#150</span>
+                                    </div>
+                                    <img src="https://media.tenor.com/iGSsICUR-2oAAAAi/mewtwo-sprite.gif" alt="MewTwo" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo psychic">Psychic</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Charizard</span>
+                                        <span>#006</span>
+                                    </div>
+                                    <img src="https://pa1.aminoapps.com/6902/5e591ac0e996367131b30dcf9df1fea6c408ce6br1-379-387_00.gif" alt="Charizard" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo fire">Fire</li>
+                                        <li class="tipo fly">Flying</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Absol</span>
+                                        <span>#359</span>
+                                    </div>
+                                    <img src="https://pa1.aminoapps.com/5919/caf0a8a775398403c187a82baa25b55a4b3031c6_00.gif" alt="Absol" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo dark">Dark</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Rayquaza</span>
+                                        <span>#384</span>
+                                    </div>
+                                    <img src="https://media.baamboozle.com/uploads/images/559823/1637203719_345636_gif-url.gif" alt="Aggron" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo dragon">Dragon</li>
+                                        <li class="tipo fly">Flying</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cartao">
+                            <ul class="lista-pokeomn">
+                                <li class="lista-item">
+                                    <div class="informacao-pokemon">
+                                        <span>Groudon</span>
+                                        <span>#383</span>
+                                    </div>
+                                    <img src="https://static.wikia.nocookie.net/theairridegroup/images/a/a8/Groudonsprite.gif/revision/latest/thumbnail/width/360/height/360?cb=20161009051019" alt="Groudon" class="img">
+                                    <ul class="lista-tipo">
+                                        <li class="tipo ground">Ground</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+    
+            <section class="block-card">
+                <div class="card">
+                    <div>
+                        <p class="card-text">Um dos pokemon</p>
+                        <p class="card-text">mais raros.</p>
+                    </div>
+                    <img src="https://pa1.aminoapps.com/6225/dc8e515d7096dd123e2602ec13cfe32d41c507e4_00.gif" alt="Ditto" class="card-img">
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">Recently Visited Topics</h2>
+        <div class="topicos-lista">
+            <div class="topicos-item">
+                <a href="#">
+                    <img src="https://static.wikia.nocookie.net/pokemon-go/images/1/1c/A%C3%A7o.png/revision/latest/scale-to-width-down/150?cb=20160807203813&path-prefix=pt-br" alt="Tipo Steel" class="logo">
+                </a>
+            </div>
+            <div class="topicos-item">
+                <a href="#">
+                    <img src="https://ih0.redbubble.net/image.10995202.9010/sticker,375x360.png" alt="Tipo Water" class="logo">
+                </a>
+            </div>
+            <div class="topicos-item">
+                <a href="#">
+                    <img src="https://static.wikia.nocookie.net/pokemon-go/images/f/f6/Voador.png/revision/latest/scale-to-width-down/150?cb=20160807202221&path-prefix=pt-br" alt="Tipo Flying" class="logo">
+                </a>
+            </div>
+            <div class="topicos-item">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/18/15/43/pokemon-3411389_1280.png" alt="Tipo Eletric" class="logo">
+                </a>
+            </div>
+            <div class="topicos-item">
+                <a href="#">
+                    <img src="https://1.bp.blogspot.com/--BK-PIyVryg/U9rty-DkqwI/AAAAAAAABwI/dl2BmMfO_ro/s1600/fighting+type.png" alt="Tipo Fighter" class="logo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <div class="contato-descricao">
+            <h2 class="contato__titulo">Stay up to date with the news!</h2>
+            <p class="contato__texto">Price Update, new pokeballs, promotions and others.</p>
+        </div>
+        <input type="email" placeholder="Register your email" class="contato__email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <img src="https://logosmarcas.net/wp-content/uploads/2020/05/Pokemon-Logo.png" alt="Logo Pokemon" class="rodape__titulo">
+
+        <ul class="lista-rodape">
+            <li class="lista-rodape-titulo">Sobre Pokemon</li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Geração</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Lideres de Ginásio</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Pokébolas</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">HM e TM</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Cartas Pokémon</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Missões</a></li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape-titulo">Tipos dos Pokemon</li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Água</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Grama</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Fogo</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Dragão</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Voador</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Terrestre</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Gelo</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Pedra</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Noemal</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Metal</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Lutador</a></li>
+            <li class="lista-rodape-item"><a href="#" class="lista-rodape-link">Sombrio</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+        });
+    </script>
+</body>
+</html>
